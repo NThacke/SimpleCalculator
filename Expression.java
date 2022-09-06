@@ -111,8 +111,7 @@ public class Expression {
         /*Symbolizes the input String that is a number into a symbolized String that represents the number character by character.
          * If there are multiple digits, separate the digits by a "&" character. If there is a decimal, no work needs to be done. The String already handles this.
          */
-        if(expression.length()>1) //only symbolize an input that's more than one
-        {
+        if(expression.length()>1) {
             String returnMe = "";
             for(int i =0; i<expression.length(); i++) {
                 returnMe += expression.charAt(i);
