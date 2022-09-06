@@ -1,5 +1,6 @@
 # SimpleCalculator
 To run this program, use terminal commands.
+
 Compilation: javac GUI.java
 Execution:   java GUI
 
